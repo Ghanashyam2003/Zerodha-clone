@@ -9,3 +9,8 @@ code
     font-family: 'Courier New', Courier, monospace;
     
 }
+
+.nav-link
+{
+    margin-left: 50px;
+}
