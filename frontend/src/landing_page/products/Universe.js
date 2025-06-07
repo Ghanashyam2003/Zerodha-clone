@@ -3,54 +3,64 @@ import React from "react";
 function Universe() {
   return (
     <div className="container mt-5">
-      <div className="row p-5 align-items-center text-center">
+      <div className="text-center mb-4">
         <h1>The Zerodha Universe</h1>
-        <p>
-          Extend your trading and investment experience even further with our
-          partner platforms
+        <p className="text-muted">
+          Extend your trading and investment experience even further with our partner platforms
         </p>
-        <div className="col-4 p- mt-3">
+      </div>
+
+      <div className="row text-center gy-5">
+        <div className="col-md-4 px-4">
           <img
             src="media/images/zerodhafundhouse.png"
             width="200"
-            height="auto"
             alt="Zerodha Fund House"
           />
+          <p className="text-muted mt-3">
+            Our asset management venture that is creating simple and transparent investment products for retail investors.
+          </p>
+        </div>
 
-          <p className="text-small text-muted">
-            Our asset management venture that is creating simple and transparent
-            investment products for retail investors
+        <div className="col-md-4 px-4">
+          <img src="media/images/sensibull-logo.svg" width="200" alt="Sensibull" />
+          <p className="text-muted mt-3">
+            Options trading platform to create, analyse, and execute strategies using data like open interest, volume, and more.
           </p>
         </div>
-        <div className="col-4 p-3 mt-3">
-          <img src="media/images/sensibull-logo.svg" width="200" height="auto" />
-          <p className="text-small text-muted">
-            Options trading platform that lets you create strategy,analyse and
-            execute strategies data points like open interest, volume,FII/DII ,and more.
+
+        <div className="col-md-4 px-4">
+          <img src="media/images/streak-logo.png" width="200" alt="Streak" />
+          <p className="text-muted mt-3">
+            Systematic trading platform allowing you to create and backtest strategies without coding.
           </p>
         </div>
-        <div className="col-4 p-3 mt-3">
-          <img src="media/images/streak-logo.png  " width="200" height="auto"/>
-          <p className="text-small text-muted">Systematic trading platform that allow you to create an back taste strategy without coding</p>
-        </div>{" "}
-        <div className="col-4 p-3 mt-5">
-          <img src="media/images/smallcaseLogo.png  " width="200" height="auto"/>
-          <p className="text-small text-muted">Thematic investment platform That helps you invest in diverse five bagtests of showcase of ETF</p>
+
+        <div className="col-md-4 px-4">
+          <img src="media/images/smallcaseLogo.png" width="200" alt="Smallcase" />
+          <p className="text-muted mt-3">
+            Thematic investment platform to help you invest in diversified portfolios like ETFs.
+          </p>
         </div>
-        <div className="col-4 p-3 mt-5">
-          <img src="media/images/tijori.svg  "width="200" height="auto" />
-          <p className="text-small text-muted">Investment research platform that offers detail insights on stock sectors supply chains and more.</p>
+
+        <div className="col-md-4 px-4">
+          <img src="media/images/tijori.svg" width="200" alt="Tijori" />
+          <p className="text-muted mt-3">
+            Investment research platform offering deep insights on stocks, sectors, supply chains, and more.
+          </p>
         </div>
-        <div className="col-4 p-3 mt-5">
-          <img src="media/images/ditto-logo.png  "width="200" height="auto" />
-          <p className="text-small text-muted">personalize advice on live and health insurance knows spam and no miss personalize advice on live and health insurance knows spam and no mis-sellingselling</p>
+
+        <div className="col-md-4 px-4">
+          <img src="media/images/ditto-logo.png" width="200" alt="Ditto" />
+          <p className="text-muted mt-3">
+            Personalized advice on life and health insurance. No spam, no mis-selling.
+          </p>
         </div>
-        <button
-          className="p-2 btn btn-primary fs-5 mb-5"
-          style={{ width: "20%", margin: "0 auto" }}
-        >
-          {" "}
-          Signup Now{" "}
+      </div>
+
+      <div className="text-center mt-5 mb-5">
+        <button className="btn btn-primary fs-5 px-5">
+          Signup Now
         </button>
       </div>
     </div>
