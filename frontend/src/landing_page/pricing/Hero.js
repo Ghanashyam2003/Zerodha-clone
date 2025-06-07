@@ -1,56 +1,43 @@
-import React from 'react'
+import React from 'react';
+ 
 
 function Hero() {
   return (
     <div className="container">
-      <div className="row p-5 mt-5 border-top text-muted fs-6" style={{ lineHeight: "1.7" }}>
-          <div className="col-6 p-5">
-            <p>
-              We kick-started operations on the 15th of August, 2010 with the
-              goal of breaking all barriers that traders and investors face in
-              India in terms of cost, support, and technology. We named the
-              company Zerodha, a combination of Zero and "Rodha", the Sanskrit
-              word for barrier.
-            </p>
-            <p>
-              Today, our disruptive pricing models and in-house technology have
-              made us the biggest stock broker in India.
-            </p>
-            <p>
-              Over 1.6+ crore clients place billions of orders every year
-              through our powerful ecosystem of investment platforms,
-              contributing over 15% of all Indian retail trading volumes.
-            </p>
-          </div>
-          <div className="col-6 p-5">
-            <p>
-              In addition, we run a number of popular open online educational
-              and community initiatives to empower retail traders and investors.
-            </p>
-            <p>
-              <a href="" style={{ textDecoration: "None" }}>
-                Rainmatter
-              </a>{" "}
-              , our fintech fund and incubator, has invested in several fintech
-              startups with the goal of growing the Indian capital markets.
-            </p>
-            <p>
-              And yet, we are always up to something new every day. Catch up on
-              the latest updates on our{" "}
-              <a href="" style={{ textDecoration: "None" }}>
-                blog
-              </a>
-               or see what the media is <a href="" style={{ textDecoration: "None" }}>
-                saying about
-              </a>  us or learn more about our
-              business and product <a href="" style={{ textDecoration: "None" }}>
-                philosophies.
-              </a> 
-            </p>
-          </div>
+      <div className="row p-5 mt-5 border-bottom text-center">
+        <h1>pricing</h1>
+        <h3 className="text-muted fs-5">
+          Free equity investment and flat ₹ 20 trade and F&O trades
+        </h3>
+      </div>
+      <div
+        className="row p-5 mt-5 fs-6 text-center"
+        style={{ lineHeight: "1.7" }}
+      >
+        <div className="col-4 p-3">
+          <img src="media/images/pricingEquity.svg" />
+          <h1 className='fs-4'>Free equity delivery</h1>
+          <p className="text-muted">
+           All equity delivery investments (NSE, BSE), are absolutely free — ₹ 0 brokerage.
+          </p>
+        </div>
+        <div className="col-4 p-3">
+          <img src="media/images/intradayTrades.svg" />
+          <h1 className='fs-4'>Intraday and F&O trades</h1>
+          <p className="text-muted">
+           Flat ₹ 20 or 0.03% (whichever is lower) per executed order on intraday trades across equity, currency, and commodity trades. Flat ₹20 on all option trades.
+          </p>
+        </div>
+        <div className="col-4 p-3">
+          <img src="media/images/pricingEquity.svg" />
+          <h1 className='fs-4'>Free direct MF</h1>
+          <p className="text-muted">
+           All direct mutual fund investments are absolutely free — ₹ 0 commissions & DP charges.
+          </p>
         </div>
       </div>
-  )
+    </div>
+  );
 }
 
 export default Hero
