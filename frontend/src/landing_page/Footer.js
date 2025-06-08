@@ -51,37 +51,37 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Minor demat account
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   NRI demat account
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Commodity
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Dematerialisation
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Fund transfer
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   MTF
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Referral program
                 </a>
               </li>
@@ -93,42 +93,42 @@ function Footer() {
             <h6 className="fw-semibold text-dark">Support</h6>
             <ul className="list-unstyled">
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Contact us
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Support portal
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   How to file a complaint?
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Status of your complaints
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Bulletin
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Circulars
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Z-Connect blog
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Downloads
                 </a>
               </li>
@@ -140,37 +140,37 @@ function Footer() {
             <h6 className="fw-semibold text-dark">Company</h6>
             <ul className="list-unstyled">
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   About
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Philosophy
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Press & media
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Careers
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Zerodha Cares (CSR)
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Zerodha tech
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none ">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Open source
                 </a>
               </li>
@@ -182,37 +182,37 @@ function Footer() {
             <h6 className="fw-semibold text-dark">Quick Links</h6>
             <ul className="list-unstyled">
               <li>
-                <a href="#" className="text-dark text-decoration-none">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Upcoming IPO
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Brokerage charges
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Market holidays
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Economic calendar
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Calculators
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Markets
                 </a>
               </li>
               <li>
-                <a href="#" className="text-dark text-decoration-none">
+                <a href="#" className="text-dark text-decoration-none text-muted">
                   Sectors
                 </a>
               </li>
