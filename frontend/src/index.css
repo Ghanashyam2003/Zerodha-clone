@@ -24,3 +24,7 @@ code
     justify-content: space-between;
     margin: 0 150px;
 }
+
+#supportHero input::placeholder {
+  color: #999;
+}
