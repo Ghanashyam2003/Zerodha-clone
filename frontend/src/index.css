@@ -13,3 +13,14 @@ code
 {
     margin-left: 50px;
 }
+
+#supportHero{
+    background-color:rgb(56,126,209);
+    color: white;
+}
+
+#supoortWrapper{
+   display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+}
