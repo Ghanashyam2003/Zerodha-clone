@@ -185,8 +185,22 @@ app.get("/addPositions", async (req, res) => {
     res.status(500).send("Error saving positions");
   }
 });
-
 */
+
+
+
+
+app.get('allHoldings',async(req,res)=>{
+  let allHoldings = await HoldingsModel.find({});
+  res.json(allHoldings)
+})
+
+
+app.get('/allPositions',async(req,res)=>{
+  let allPositions = await PositionsModel.find({});
+  res.json(allPositions);
+})
+
 
 mongoose
   .connect(uri, {
